@@ -296,6 +296,15 @@
         ""
       ],
       "Type": "Property"
+    },
+    {
+      "Name": "DoubleTapToWake",
+      "Path": "/sys/class/touchscreen/primary/gesture",
+      "Values": [
+        "0",
+        "1"
+      ],
+      "DefaultIndex": 0
     }
   ],
   "Actions": [
@@ -658,6 +667,12 @@
       "Node": "GPUMinFreq",
       "Duration": 0,
       "Value": "4"
+    },
+    {
+      "PowerHint": "DOUBLE_TAP_TO_WAKE",
+      "Node": "DoubleTapToWake",
+      "Duration": 0,
+      "Value": "1"
     }
   ]
 }
