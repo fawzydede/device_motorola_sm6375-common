@@ -213,6 +213,7 @@
       "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-ddr-bw/min_freq",
       "Values": [
         "7980",
+        "6881",
         "5161",
         "2086",
         "762"
@@ -648,7 +649,7 @@
       "PowerHint": "CAMERA_LAUNCH",
       "Node": "CPUBWMinFreq",
       "Duration": 1000,
-      "Value": "5161"
+      "Value": "6881"
     },
     {
       "PowerHint": "CAMERA_STREAMING",
